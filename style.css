@@ -55,32 +55,3 @@ h3 { font-weight: bold;}
 .logout{
 	text-align:right;
 }
-
-.menu2 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #339FFF;
-}
-
-.menu2 li {
-    float: left;
-    border-right:1px solid #bbb;
-}
-
-.menu2 li:last-child {
-    border-right: none;
-}
-
-.menu2 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 8.6px;
-    text-decoration: none;
-}
-
-.menu2 li a:hover:not(.active) {
-    background-color: #337AFF;
-}
