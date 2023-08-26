@@ -112,7 +112,7 @@ img {
 <option value="Software Development">Software Development</option>
 <option value="Network Technology">Network Technology</option>
 <option value="System Analysis">System Analysis</option>
-<option value="Multimedia Development">Multimedia Development</option>
+<option value="Multimedia Development">Database Management</option>
 </select></p>
 <p><label for="term">Study Option: </label>
 <select name="term" id="term" required="required">
