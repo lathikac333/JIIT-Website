@@ -36,9 +36,17 @@ include("menu.php");
 <li>Social media</li>
 </ul>
 <br/>
-
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mxT233EdY5c?si=arg2g6IlrmPNlieF" 
+frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
 <br/><br/><br/><br/>
-<br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
+<br/><br/><br/><br/>
 <footer>
 <hr/>
 <?php
