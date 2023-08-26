@@ -16,10 +16,15 @@ include("common.php");
 header8();
 include("menu.php");
 ?>
+<style>
+img { 
+        width: 100%;
+        height: auto;
+    }
+</style>
 <hr/>
-<img class="mySlides" src="images/home2.jpg">
-<img class="mySlides" src="images/home.jpg">
-<img class="mySlides" src="images/home3.jpg">
+<img class="mySlides" src="images/home1.jpg" width="1500" height="530">
+<img class="mySlides" src="images/home2.jpg" width="1500" height="530">
 <script src="home.js"></script>
 <hr/>
 
@@ -46,7 +51,7 @@ frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe
 <br/><br/><br/><br/>
 <br/><br/><br/><br/>
 <br/><br/><br/><br/>
-<br/><br/><br/><br/>
+<br/>
 <footer>
 <hr/>
 <?php

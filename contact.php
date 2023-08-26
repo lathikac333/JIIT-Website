@@ -16,8 +16,14 @@ include("common.php");
 header8();
 include("menu.php");
 ?>
+<style>
+img { 
+        width: 100%;
+        height: auto;
+    }
+</style>
 <hr/>
-<img src="images/contact.jpg">
+<img src="images/contact.jpg" width="1500" height="265">
 <hr/>
 
 <h2>CONTACT US</h2>

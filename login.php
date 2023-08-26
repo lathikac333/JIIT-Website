@@ -17,8 +17,14 @@ include("common.php");
 header8();
 include("menu.php");
 ?>
+<style>
+img { 
+        width: 100%;
+        height: auto;
+    }
+</style>
 <hr/>
-<img src="images/cregister.jpg">
+<img src="images/cregister.jpg" width="1500" height="265">
 <hr/>
 
 <h2>STUDENT LOGIN REQUIRED FOR COURSE REGISTRATION</h2>
@@ -32,8 +38,6 @@ include("menu.php");
 	</form>
 	<br/>
 <h3>IF YOU ARE NOT REGISTERED? <a href="register.php"> <input type = "submit"  value = "register"/></a> </h3>
-<br/><br/><br/>
-<br/><br/><br/>
 <br/><br/><br/>
 <footer>
 <hr/>
@@ -56,7 +60,7 @@ session_start();
 		if((!empty($email)) && (!empty($loginpwd))) // check if email and password are not empty
 		{
 		//Authenticate the customer using customer Email and password from customer table
-		$DBConnect = @mysqli_connect("localhost", "root", "", "jiit")
+		$DBConnect = @mysqli_connect("localhost", "root", "", "jiit", 3307)
 			Or die ("<p>Unable to connect to the database server.</p>". "<p>Error code ". mysqli_connect_errno().": ". mysqli_connect_error()). "</p>";
 
 		$SQLstring="select email from student_register where email='$email' and Password = '$loginpwd'"; 

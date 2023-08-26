@@ -16,8 +16,14 @@ include("common.php");
 header8();
 include("menu.php");
 ?>
+<style>
+img { 
+        width: 100%;
+        height: auto;
+    }
+</style>
 <hr/>
-<img src="images/cregister.jpg">
+<img src="images/cregister.jpg" width="1500" height="265">
 <hr/>
  <form method = "get" action = "logout.php">
 <p class="logout"><input type="submit"  value="Logout"/></p>

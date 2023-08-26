@@ -16,8 +16,14 @@ include("common.php");
 header8();
 include("menu.php");
 ?>
+<style>
+img { 
+        width: 100%;
+        height: auto;
+    }
+</style>
 <hr/>
-<img src="images/about.jpg">
+<img src="images/about.jpg" width="1500" height="265">
 <hr/>
 
 <h2>NEWS & NOTICES</h2>

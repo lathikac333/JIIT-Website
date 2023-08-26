@@ -16,8 +16,14 @@ include("common.php");
 header8();
 include("menu.php");
 ?>
+<style>
+img { 
+        width: 100%;
+        height: auto;
+    }
+</style>
 <hr/>
-<img src="images/coursedetails.jpg">
+<img src="images/coursedetails.jpg" width="1500" height="265">
 <hr/>
 
 <h2>COURSE DETAILS</h2>
@@ -28,14 +34,14 @@ include("menu.php");
  flexible outcomes.</p>
 
  <?php
-$DBConnect = @mysqli_connect("localhost", "root", "", "jiit")
-				Or die ("<p>Unable to connect to the database server.</p>". "<p>Error code ". mysqli_connect_errno().": ". mysqli_connect_error()). "</p>";
+$DBConnect = @mysqli_connect("localhost", "root", "", "jiit", 3307)
+Or die ("<p>Unable to connect to the database server.</p>". "<p>Error code ". mysqli_connect_errno().": ". mysqli_connect_error()). "</p>";
 
 $sql_table="course_details";
 $query = "select CourseNo, CourseName, Major, Duration, StudyOption, Intake, StartDate FROM course_details";
 
 $result = @mysqli_query($DBConnect, $query)
-						Or die ("<p>Unable to insert in the course registration table.</p>"."<p>Error code ". mysqli_errno($DBConnect). ": ".mysqli_error($DBConnect)). "</p>";
+		Or die ("<p>Unable to insert in the course registration table.</p>"."<p>Error code ". mysqli_errno($DBConnect). ": ".mysqli_error($DBConnect)). "</p>";
 		
 
 echo "<table border=\"1\">";

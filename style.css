@@ -84,12 +84,3 @@ h3 { font-weight: bold;}
 .menu2 li a:hover:not(.active) {
     background-color: #337AFF;
 }
-
-.count{text-align:right;
-	color:blue;}
-
-.img {
-       
-        
-        width: 50%;
-    }

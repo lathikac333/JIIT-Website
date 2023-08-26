@@ -16,8 +16,14 @@ include("common.php");
 header8();
 include("menu.php");
 ?>
+<style>
+img { 
+        width: 100%;
+        height: auto;
+    }
+</style>
 <hr/>
-<img src="images/sregister.jpg">
+<img src="images/sregister.jpg" width="1500" height="265">
 <hr/>
 
 <h2>STUDENT REGISTER</h2>
@@ -48,7 +54,6 @@ include("menu.php");
 </fieldset>
 </form>
 
-<br/><br/><br/>
 <br/><br/><br/>
 <br/>
 <footer>
@@ -90,7 +95,7 @@ footer();
 			}	
 		
 			// check email id is unique
-			$DBConnect = @mysqli_connect("localhost", "root", "", "jiit")
+			$DBConnect = @mysqli_connect("localhost", "root", "", "jiit", 3307)
 			Or die ("<p>Unable to connect to the database server.</p>". "<p>Error code ". mysqli_connect_errno().": ". mysqli_connect_error()). "</p>";
 
 				
